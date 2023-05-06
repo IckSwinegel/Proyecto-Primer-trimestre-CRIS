@@ -22,7 +22,7 @@ namespace BL
             ClienteDAL datos = new ClienteDAL();
             //Hacemos un retorno del metodo que llamamos por medio del objeto qye instanciamos de la
             //capa dal 
-            return new ClienteDAL().AgregarCliiente(nOpcion, cliente); 
+            return datos.AgregarCliiente(nOpcion, cliente); 
         }
 
 
